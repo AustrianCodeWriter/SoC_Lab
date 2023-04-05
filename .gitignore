@@ -1,0 +1,195 @@
+# GENERAL INFO: before adding a file extension for exclusion,
+# check if the extension is anywhere currently in use
+
+
+# ignore temporary Vivado folder
+.Xil
+SoC_Project.sim
+Vitis_workspace/.metadata/*
+Vitis_workspace/.analytics
+Vitis_workspace/IDE.log
+
+# ignore the Vivado generated files
+vivado.log
+vivado.jou
+
+# ignore unnecessary files
+SoC_Project_Components/Create_Testbench.bat
+SoC_Project_Components/Testbench_Generator.exe
+*.bkp
+
+# ---- ignore for C/C++ related files ----
+*.ko
+*.obj
+*.slo
+*.lo
+# Linker output
+*.ilk
+*.map
+*.exp
+# Precompiled Headers
+*.gch
+*.pch
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.lai
+# allow *.lib in
+!test/**/*.lib
+!tools/**/*.lib
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+# allow *.dll in
+!test/**/*.dll
+!tools/**/*.dll
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+# allow *.exe in
+!test/**/*.exe
+!tools/**/*.exe
+!src/products/**/*.exe
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+# allow *.pdb in
+!tools/**/*.pdb
+
+# ---- MicrosoftOffice ----
+*.tmp
+# Word temporary
+~$*.doc*
+# Word Auto Backup File
+Backup of *.doc*
+# Excel temporary
+~$*.xls*
+# Excel Backup File
+*.xlk
+# PowerPoint temporary
+~$*.ppt*
+# Visio autosave temporary files
+*.~vsd*
+
+# ---- LibreOffice ----
+.~lock.*#
+
+# ---- Windows ----
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+# Dump file
+*.stackdump
+# Folder config file
+[Dd]esktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+# Windows shortcuts
+*.lnk
+
+# ---- Archives ----
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.gzip
+*.tgz
+*.bzip
+*.bzip2
+*.bz2
+*.xz
+*.lzma
+*.xar
+*.iso
+*.tar
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.txz
+
+# ---- XilinxISE ----
+# intermediate build files
+*.bgn
+*.bit
+*.bld
+*.cmd_log
+*.drc
+*.ll
+*.lso
+*.msd
+*.msk
+*.ncd
+*.ngc
+*.ngd
+*.ngr
+*.pad
+*.par
+*.pcf
+*.prj
+*.ptwx
+*.rbb
+*.rbd
+*.stx
+*.syr
+*.twr
+*.twx
+*.unroutes
+*.ut
+*.xpi
+*.xst
+*_bitgen.xwbt
+*_envsettings.html
+*_map.map
+*_map.mrp
+*_map.ngm
+*_map.xrpt
+*_ngdbuild.xrpt
+*_pad.csv
+*_pad.txt
+*_par.xrpt
+*_summary.html
+*_summary.xml
+*_usage.xml
+*_xst.xrpt
+# iMPACT generated files
+_impactbatch.log
+impact.xsl
+impact_impact.xwbt
+ise_impact.cmd
+webtalk_impact.xml
+# Core Generator generated files
+xaw2verilog.log
+# project-wide generated files
+*.gise
+par_usage_statistics.html
+usage_statistics_webtalk.html
+webtalk.log
+webtalk_pn.xml
+# generated folders
+iseconfig/
+xlnx_auto_0_xdb/
+xst/
+_ngo/
+_xmsgs/

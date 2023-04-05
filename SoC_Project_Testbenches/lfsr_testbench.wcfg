@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="lfsr_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="lfsr_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="250.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,750.000001 us"></ZoomEndTime>
+      <Cursor1Time time="1,500.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="193"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/lfsr_testbench/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lfsr_testbench/UUT/end_sig" type="logic">
+      <obj_property name="ElementShortName">end_sig</obj_property>
+      <obj_property name="ObjectShortName">end_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lfsr_testbench/reset_i" type="logic">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lfsr_testbench/en_i" type="logic">
+      <obj_property name="ElementShortName">en_i</obj_property>
+      <obj_property name="ObjectShortName">en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lfsr_testbench/UUT/pause_i" type="logic">
+      <obj_property name="ElementShortName">pause_i</obj_property>
+      <obj_property name="ObjectShortName">pause_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lfsr_testbench/UUT/unlock_end_next_sig" type="logic">
+      <obj_property name="ElementShortName">unlock_end_next_sig</obj_property>
+      <obj_property name="ObjectShortName">unlock_end_next_sig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lfsr_testbench/dir_up_i" type="logic">
+      <obj_property name="ElementShortName">dir_up_i</obj_property>
+      <obj_property name="ObjectShortName">dir_up_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lfsr_testbench/end_o" type="logic">
+      <obj_property name="ElementShortName">end_o</obj_property>
+      <obj_property name="ObjectShortName">end_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lfsr_testbench/addr_o" type="array">
+      <obj_property name="ElementShortName">addr_o[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_o[14:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+   </wvobject>
+   <wvobject fp_name="/lfsr_testbench/addr_sim" type="array">
+      <obj_property name="ElementShortName">addr_sim[14:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_sim[14:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

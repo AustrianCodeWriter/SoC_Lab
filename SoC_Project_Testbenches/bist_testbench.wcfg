@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="BIST_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="BIST_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,479.695432 us"></ZoomEndTime>
+      <Cursor1Time time="163.705584 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="148"></NameColumnWidth>
+      <ValueColumnWidth column_width="71"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="group26" type="group">
+      <obj_property name="label">BIST Input</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/BIST_testbench/clk_i" type="logic">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/reset_i" type="logic">
+         <obj_property name="ElementShortName">reset_i</obj_property>
+         <obj_property name="ObjectShortName">reset_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/stop_on_err_i" type="logic">
+         <obj_property name="ElementShortName">stop_on_err_i</obj_property>
+         <obj_property name="ObjectShortName">stop_on_err_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/enable_i" type="logic">
+         <obj_property name="ElementShortName">enable_i</obj_property>
+         <obj_property name="ObjectShortName">enable_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/sel_mpp_i" type="logic">
+         <obj_property name="ElementShortName">sel_mpp_i</obj_property>
+         <obj_property name="ObjectShortName">sel_mpp_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/continue_i" type="logic">
+         <obj_property name="ElementShortName">continue_i</obj_property>
+         <obj_property name="ObjectShortName">continue_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group28" type="group">
+      <obj_property name="label">LFSR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/BIST_testbench/UUT/D1/en_i" type="logic">
+         <obj_property name="ElementShortName">en_i</obj_property>
+         <obj_property name="ObjectShortName">en_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D1/pause_i" type="logic">
+         <obj_property name="ElementShortName">pause_i</obj_property>
+         <obj_property name="ObjectShortName">pause_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D1/end_o" type="logic">
+         <obj_property name="ElementShortName">end_o</obj_property>
+         <obj_property name="ObjectShortName">end_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D1/addr_o" type="array">
+         <obj_property name="ElementShortName">addr_o[14:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_o[14:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D1/dir_up_i" type="logic">
+         <obj_property name="ElementShortName">dir_up_i</obj_property>
+         <obj_property name="ObjectShortName">dir_up_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group31" type="group">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/BIST_testbench/UUT/D2/state_sig" type="other">
+         <obj_property name="ElementShortName">state_sig</obj_property>
+         <obj_property name="ObjectShortName">state_sig</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D2/sel_mpp_i" type="logic">
+         <obj_property name="ElementShortName">sel_mpp_i</obj_property>
+         <obj_property name="ObjectShortName">sel_mpp_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D2/mem_nominal_data_o" type="logic">
+         <obj_property name="ElementShortName">mem_nominal_data_o</obj_property>
+         <obj_property name="ObjectShortName">mem_nominal_data_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D2/lfsr_pause_o" type="logic">
+         <obj_property name="ElementShortName">lfsr_pause_o</obj_property>
+         <obj_property name="ObjectShortName">lfsr_pause_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D2/mem_data_o" type="logic">
+         <obj_property name="ElementShortName">mem_data_o</obj_property>
+         <obj_property name="ObjectShortName">mem_data_o</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group171" type="group">
+      <obj_property name="label">faulty_memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group75" type="group">
+         <obj_property name="label">BRAM</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/BIST_testbench/UUT/D3/Mem1/wea[0]" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+            <obj_property name="label">wea</obj_property>
+         </wvobject>
+         <wvobject fp_name="/BIST_testbench/UUT/D3/Mem1/addra" type="array">
+            <obj_property name="ElementShortName">addra[14:0]</obj_property>
+            <obj_property name="ObjectShortName">addra[14:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/BIST_testbench/UUT/D3/Mem1/dina[0]" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+            <obj_property name="label">dina</obj_property>
+         </wvobject>
+         <wvobject fp_name="/BIST_testbench/UUT/D3/Mem1/douta[0]" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">[0]</obj_property>
+            <obj_property name="label">douta</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group55" type="group">
+         <obj_property name="label">fault_models</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/BIST_testbench/UUT/D3/Fault1/state_sig" type="other">
+            <obj_property name="ElementShortName">state_sig</obj_property>
+            <obj_property name="ObjectShortName">state_sig</obj_property>
+         </wvobject>
+         <wvobject fp_name="/BIST_testbench/UUT/D3/Fault1/lfsr_end_i" type="logic">
+            <obj_property name="ElementShortName">lfsr_end_i</obj_property>
+            <obj_property name="ObjectShortName">lfsr_end_i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/BIST_testbench/UUT/D3/Fault1/din_i" type="logic">
+            <obj_property name="ElementShortName">din_i</obj_property>
+            <obj_property name="ObjectShortName">din_i</obj_property>
+         </wvobject>
+         <wvobject fp_name="/BIST_testbench/UUT/D3/Fault1/addr_i" type="array">
+            <obj_property name="ElementShortName">addr_i[14:0]</obj_property>
+            <obj_property name="ObjectShortName">addr_i[14:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/BIST_testbench/UUT/D3/Fault1/addr_o" type="array">
+            <obj_property name="ElementShortName">addr_o[14:0]</obj_property>
+            <obj_property name="ObjectShortName">addr_o[14:0]</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/BIST_testbench/UUT/D3/Fault1/intercept_o" type="logic">
+            <obj_property name="ElementShortName">intercept_o</obj_property>
+            <obj_property name="ObjectShortName">intercept_o</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group47" type="group">
+      <obj_property name="label">MISR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/BIST_testbench/UUT/D4/addr_i" type="array">
+         <obj_property name="ElementShortName">addr_i[14:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_i[14:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D4/mem_nominal_data_i" type="logic">
+         <obj_property name="ElementShortName">mem_nominal_data_i</obj_property>
+         <obj_property name="ObjectShortName">mem_nominal_data_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D4/mem_data_i" type="logic">
+         <obj_property name="ElementShortName">mem_data_i</obj_property>
+         <obj_property name="ObjectShortName">mem_data_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D4/addr_o" type="array">
+         <obj_property name="ElementShortName">addr_o[14:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_o[14:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/UUT/D4/error_o" type="logic">
+         <obj_property name="ElementShortName">error_o</obj_property>
+         <obj_property name="ObjectShortName">error_o</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group25" type="group">
+      <obj_property name="label">BIST Output</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/BIST_testbench/addr_o" type="array">
+         <obj_property name="ElementShortName">addr_o[14:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_o[14:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/error_o" type="logic">
+         <obj_property name="ElementShortName">error_o</obj_property>
+         <obj_property name="ObjectShortName">error_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/BIST_testbench/running_o" type="logic">
+         <obj_property name="ElementShortName">running_o</obj_property>
+         <obj_property name="ObjectShortName">running_o</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

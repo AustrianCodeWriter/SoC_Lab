@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt auto  -L xil_defaultlib -L xilinx_vip -L secureip -L xpm --snapshot blk_mem_gen_0 xil_defaultlib.blk_mem_gen_0 -log elaborate.log

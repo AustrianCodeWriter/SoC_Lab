@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt auto  -L xil_defaultlib -L xilinx_vip -L secureip -L xpm --snapshot zynq_block xil_defaultlib.zynq_block -log elaborate.log
