@@ -1,0 +1,5 @@
+vhdl xil_defaultlib  \
+"Labor_SoC-Design/SoC_Project/SoC_Project.gen/sources_1/bd/zynq_block/ip/zynq_block_processing_system7_0_0/zynq_block_processing_system7_0_0_sim_netlist.vhdl" \
+"../../../bd/zynq_block/sim/zynq_block.vhd" \
+
+nosort
